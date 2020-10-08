@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This site describes FAIR Data Points, a proposed standard and an example implementation.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+FAIR Data Point was developed through contributions by:
+ * [DTL](https://www.dtls.nl/), The Dutch Techcentre for Life Sciences
+ * [LUMC](https://www.lumc.nl/), Leiden Umiversity Medical Center
+ * [GO-FAIR](https://www.go-fair.org/), Global Open FAIR international support and coordination office
+ * [FAIRsFAIR](https://www.fairsfair.eu/), The FAIRsFAIR project, with EU funding
+ 
