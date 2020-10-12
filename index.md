@@ -36,7 +36,7 @@ The reference implementation is not the only FAIR Data Point implementation in e
 * The [Netherlands eScience Center](https://www.esciencecenter.nl) have their own implementation.
 * The [SURF Repository](https://repository.surfsara.nl)
 
-<!--- DANS? And how far are we with DataVerse? ---/>
+<!--- DANS? And how far are we with DataVerse? -->
 
 # Links
 * Resources
