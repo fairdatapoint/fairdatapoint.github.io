@@ -29,7 +29,7 @@ Several projects are under way that will use FAIR Data Points to make data sets 
 # Networking FAIR Data Points together
 The FAIR Data Point protocol contains a component to notify a client of updates to its data. This _ping_ system allows for the creation of networks of FAIR Data points that can be queried as a single unit. You can see a first instance of this at work in the FAIR Data Point [HOME Server](https://home.fairdatapoint.org/). This functionality will still be extended.
 
-# Example implementations
+# Protocol implementations
 The reference implementation is not the only FAIR Data Point implementation in existence:
 * The [MOLGENIS](https://www.molgenis.org) software fully supports the FAIR Data Point protocol.
 * [Castor](https://www.castoredc.com) currently supports a previous version.
