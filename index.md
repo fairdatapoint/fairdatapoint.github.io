@@ -19,7 +19,7 @@ The first and most important component is a _definition_ of the [FAIR Data Point
 
 The second component is a _reference implementation_ of the metadata registration service: A service implementing the API specification. It contains an authentication system to allow maintainers to define and update metadata. Read-only access to the data is public.
 
-The third component is a _client_ of the API: a web front ent that can be used to add and edit the information in the metadata registration service, or to query it. As an editor, it contains a simple validation of data types based on the [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/). It facilitates the creation of metadata profiles as well as filling them, but this is meant to support the FAIR data point, and not meant to replace complete metadata profile development systems like [CEDAR](https://metadatacenter.org/)
+The third component is a _client_ of the API: a web front ent that can be used to add and edit the information in the metadata registration service, or to query it. As an editor, it contains a simple validation of data types based on the [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/). It facilitates the creation of metadata profiles as well as filling them, but this is meant to support the FAIR data point, and not meant to replace complete metadata profile development systems like [CEDAR](https://metadatacenter.org/).
 
 # Examples of use
 Several projects are under way that will use FAIR Data Points to make data sets known to other researchers. Some examples:
@@ -31,9 +31,9 @@ The FAIR Data Point protocol contains a component to notify a client of updates 
 
 # Protocol implementations
 The reference implementation is not the only FAIR Data Point implementation in existence:
-* The [MOLGENIS](https://www.molgenis.org) software fully supports the FAIR Data Point protocol.
+* The [MOLGENIS](https://www.molgenis.org) software supports the FAIR Data Point protocol.
 * [Castor](https://www.castoredc.com) currently supports a previous version.
-* The [Netherlands eScience Center](https://www.esciencecenter.nl) have their own implementation.
+* The [Netherlands eScience Center](https://www.esciencecenter.nl) have their own [implementation](https://github.com/NLeSC/fairdatapoint).
 * The [SURF Repository](https://repository.surfsara.nl) implements the protocol.
 
 <!--- DANS? And how far are we with DataVerse? -->
