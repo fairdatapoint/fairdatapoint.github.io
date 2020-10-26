@@ -35,7 +35,7 @@ There are several FAIR Data Point implementations in existence:
 * The [MOLGENIS](https://www.molgenis.org) software supports the FAIR Data Point protocol.
 * [Castor](https://www.castoredc.com) currently supports a previous version.
 * The [Netherlands eScience Center](https://www.esciencecenter.nl) have their own [implementation](https://github.com/NLeSC/fairdatapoint).
-* The [SURF Repository](https://repository.surfsara.nl) implements the protocol.
+* The [SURF Data Repository](https://repository.surfsara.nl) implements the protocol.
 
 <!--- DANS? And how far are we with DataVerse? -->
 
