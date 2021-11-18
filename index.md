@@ -36,6 +36,7 @@ There are several FAIR Data Point implementations in existence:
 * [Castor](https://www.castoredc.com) currently supports a previous version.
 * The [Netherlands eScience Center](https://www.esciencecenter.nl) have their own [implementation](https://github.com/NLeSC/fairdatapoint).
 * The [SURF Data Repository](https://repository.surfsara.nl) implements the protocol.
+* [RD-Nexus](https://rd.discovery-nexus.org) implements the protocol
 
 <!--- DANS? And how far are we with DataVerse? -->
 
