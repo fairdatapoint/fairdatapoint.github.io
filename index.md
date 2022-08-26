@@ -41,6 +41,7 @@ There are several FAIR Data Point implementations in existence:
 <!--- DANS? And how far are we with DataVerse? -->
 
 # Links
+* Reference paper: Luiz Olavo Bonino da Silva Santos, Kees Burger, Rajaram Kaliyaperumal, Mark D. Wilkinson; FAIR Data Point: A FAIR-oriented approach for metadata publication. Data Intelligence 2022; doi: https://doi.org/10.1162/dint_a_00160
 * Introductory Videos by Luiz Bonino:
     * [Introduction to the FAIR Data Point](https://www.youtube.com/watch?v=PtS_ek7BXSA)
     * [Local deployment of the FAIR Data Point](https://www.youtube.com/watch?v=rN_IVwppL_E)
