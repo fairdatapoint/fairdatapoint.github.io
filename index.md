@@ -25,6 +25,7 @@ The third component is a _client_ of the API: a web front end that can be used t
 Several projects are under way that will use FAIR Data Points to make data sets known to other researchers. Some examples:
 * The [VODAN](https://www.vodan-totafrica.info/about-vodan) project installs FAIR data points in several different (firstly African) countries, and uses these to collect information on COVID-19 patients. This network will also work on implementing the [FAIR Data Train](https://personalhealthtrain.org/) in order to allow distributed analysis of the data.
 * Dutch academic hospitals will be implementing FAIR Data Points to collect COVID-19 data too, with the primary aim of reducing the maintenance burden of several Covid-19 data portals.
+* [Health-RI](https://health-ri.nl/) is implementing their [health data catalogue](https://catalog.accesshealthdata.nl/) using FAIR Data Points.
 
 # Networking FAIR Data Points together
 The FAIR Data Point protocol contains a component to notify a client of updates to its data. This _ping_ system allows for the creation of networks of FAIR Data points that can be queried as a single unit. You can see a first instance of this at work in the FAIR Data Point [HOME Server](https://home.fairdatapoint.org/). This functionality will still be extended.
@@ -38,6 +39,10 @@ There are several FAIR Data Point implementations in existence:
 * The [SURF Data Repository](https://repository.surfsara.nl) implements the protocol.
 * [RD-Nexus](https://rd.discovery-nexus.org) implements the protocol.
 * [LOVD](https://www.lovd.nl) implements the protocol.
+
+There are also different implementations of the metadata harvesting protocol:
+* The [reference implementation](https://github.com/FAIRDataTeam/FAIRDataPoint) as described above.
+* A [plugin for CKAN](https://github.com/CivityNL/ckanext-fairdatapoint) was created to harvest FAIR Data Points.
 
 <!--- DANS? And how far are we with DataVerse? -->
 
