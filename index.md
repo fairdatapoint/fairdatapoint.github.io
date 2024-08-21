@@ -19,13 +19,16 @@ The first and most important component is a _definition_ of the [FAIR Data Point
 
 The second component is a _reference implementation_ of the metadata registration service: A service implementing the API specification. It contains an authentication system to allow maintainers to define and update metadata. Read-only access to the data is public.
 
-The third component is a _client_ of the API: a web front end that can be used to add and edit the information in the metadata registration service, or to query it. As an editor, it contains a simple validation of data types based on the [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/). It facilitates the creation of metadata profiles as well as filling them, but this is meant to support the FAIR data point, and not meant to replace complete metadata profile development systems like [CEDAR](https://metadatacenter.org/).
+The third component is a _client_ of the API: a web front end that can be used to add and edit the information in the metadata registration service, or to query it. The editor generates forms using [Data Shapes (DASH)](https://www.datashapes.org/) and contains a simple validation of data types based on the [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/). It facilitates the creation of metadata profiles as well as filling them, but this is meant to support the FAIR data point, and not meant to replace complete metadata profile development systems like [CEDAR](https://metadatacenter.org/).
+
+The priorities for the development of all three components together are set using input from an Advisory Board.
 
 # Examples of use
 Several projects are under way that will use FAIR Data Points to make data sets known to other researchers. Some examples:
 * The [VODAN](https://www.vodan-totafrica.info/about-vodan) project installs FAIR data points in several different (firstly African) countries, and uses these to collect information on COVID-19 patients. This network will also work on implementing the [FAIR Data Train](https://personalhealthtrain.org/) in order to allow distributed analysis of the data.
 * Dutch academic hospitals will be implementing FAIR Data Points to collect COVID-19 data too, with the primary aim of reducing the maintenance burden of several Covid-19 data portals.
 * [Health-RI](https://health-ri.nl/en) is implementing their [health data catalogue](https://catalog.accesshealthdata.nl/) using FAIR Data Points.
+* The [Genomic Data Infrastructure (GDI)](https://gdi.onemilliongenomes.eu/) project is exchanging metadata with a central catalogue using FDP protocols.
 
 # Networking FAIR Data Points together
 The FAIR Data Point protocol contains a component to notify a client of updates to its data. This _ping_ system allows for the creation of networks of FAIR Data points that can be queried as a single unit. You can see a first instance of this at work in the FAIR Data Point [HOME Server](https://home.fairdatapoint.org/). This functionality will still be extended.
