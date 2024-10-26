@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: FAIR Data Point
-email: rob.hooft@dtls.nl
+email: rob.hooft@health-ri.nl
 description: >- # this means to ignore newlines until "baseurl:"
   FAIR Data Points can be used to describe your data sets in a FAIR way, using standard metadata
   and make them available through simple WWW protocols.
