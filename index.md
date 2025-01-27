@@ -25,7 +25,8 @@ The priorities for the development of all three components together are set usin
 
 # Examples of use
 Several projects are under way that will use FAIR Data Points to make data sets known to other researchers. Some examples:
-* The [VODAN](https://www.vodan-totafrica.info/about-vodan) project installs FAIR data points in several different (firstly African) countries, and uses these to collect information on COVID-19 patients. This network will also work on implementing the [FAIR Data Train](http://personalhealthtrain.org/) in order to allow distributed analysis of the data.
+* The [VODAN](https://www.vodan-totafrica.info/about-vodan) project installs FAIR data points in several different (firstly African) countries, and uses these to collect information on COVID-19 patients.
+* The [FAIR Data Train](https://specs.fairdatatrain.org/) uses FAIR data points in FAIR Data Stations to as the metadata provisioning components. This is a generalisation of the concepts first built into the [Personal Health Train](http://personalhealthtrain.org/) for distributed analysis of  data.
 * Dutch academic hospitals will be implementing FAIR Data Points to collect COVID-19 data too, with the primary aim of reducing the maintenance burden of several Covid-19 data portals.
 * [Health-RI](https://health-ri.nl/en) is implementing their [health data catalogue](https://catalogus.healthdata.nl/) using FAIR Data Points.
 * The [Genomic Data Infrastructure (GDI)](https://gdi.onemilliongenomes.eu/) project is exchanging metadata with a central catalogue using FDP protocols.
