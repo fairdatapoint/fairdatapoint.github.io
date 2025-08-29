@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specifications - FAIR Data Point</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/FDPLogo.png" alt="FAIR Data Point Logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="specifications.html">Specifications</a>
+			<a href="implementations.html">Implementations</a>
+            <a href="documentation.html">Documentation</a>
+			<a href="faq.html">FAQ</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="specifications" class="container text-section">
+            <h2 class="section-title">FDP Specifications</h2>
+            <p>The FDP specification defines a **minimal set of HTTP REST API endpoints and RDF vocabularies** that a data provider must implement to expose its metadata in a machine-readable and interoperable way. The specification is based on the **W3C DCAT standard** and extends it with specific classes for data points, catalogues, and datasets.</p>
+            <h3>Key components of the specification:</h3>
+            <ul>
+                <li><strong>Base URL:</strong> The root URL of the FDP instance.</li>
+                <li><strong>API Endpoints:</strong> Standardized REST endpoints for retrieving metadata about the data point, catalogues, and individual datasets.</li>
+                <li><strong>RDF Vocabularies:</strong> Use of standard RDF vocabularies like DCAT, PROV-O, and schema.org to describe metadata.</li>
+                <li><strong>Content Negotiation:</strong> Supports content negotiation to return metadata in different formats (e.g., Turtle, JSON-LD, RDF/XML).</li>
+            </ul>
+            <p>A detailed and versioned specification can be found on our GitHub repository. We encourage community feedback and contributions to evolve the standard.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 FAIR Data Point Project. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+</body>
+</html>

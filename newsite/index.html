@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAIR Data Point</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/FDPLogo.png" alt="FAIR Data Point Logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="specifications.html">Specifications</a>
+			<a href="implementations.html">Implementations</a>
+            <a href="documentation.html">Documentation</a>
+			<a href="faq.html">FAQ</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Making Your Metadata Findable, Accessible, Interoperable, and Reusable</h1>
+                <p>The FAIR Data Point (FDP) is a lightweight but robust metadata repository that enables you to expose the metadata of your digital objects in a machine-readable, FAIR way. FDP makes it easy to create and manage data catalogues, distribute metadata, and ultimately, share your digital objects with the world.</p>
+                <a href="about.html" class="btn-primary">Learn More</a>
+            </div>
+        </section>
+
+        <section class="container features-section">
+            <h2 class="section-title">Key Features</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Flexible metadata schemas</h3>
+                    <p>Create metadata about any kind of (digital) object by defining custom metadata schemas based on the W3C's DCAT standard.</p>
+                </div>
+                <div class="card">
+                    <h3>Fully HATEOAS API</h3>
+                    <p>The best API is no API. The FDP allows smart agents to navigate through its metadata content using the metadata content itselft as guidance (based on W3C's Linked Data Platform).</p>
+                </div>
+                <div class="card">
+                    <h3>Machine-readable metadata</h3>
+                    <p>Leverages Linked Data principles to create meaningful connections between the metadata and other digital objects, making them more interoperable.</p>
+                </div>
+                <div class="card">
+                    <h3>Findability</h3>
+                    <p>Makes your metadata and, consequently their described digital objects findable by registering and exposing metadata in a searchable and discoverable way (FDP Index).</p>
+                </div>
+<!--
+                <div class="card">
+                    <h3>Accessibility</h3>
+                    <p>Ensures data is **accessible** through stable identifiers and standard communication protocols.</p>
+                </div>
+                <div class="card">
+                    <h3>Interoperability</h3>
+                    <p>Promotes **interoperability** by using shared vocabularies and standardized formats.</p>
+                </div>
+-->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 FAIR Data Team. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+    </footer>
+
+</body>
+</html>

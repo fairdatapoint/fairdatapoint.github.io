@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - FAIR Data Point</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/FDPLogo.png" alt="FAIR Data Point Logo">
+            </a>
+        </div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="specifications.html">Specifications</a>
+			<a href="implementations.html">Implementations</a>
+            <a href="documentation.html">Documentation</a>
+			<a href="faq.html">FAQ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container text-section">
+            <h2 class="section-title">Implementations</h2>
+            <p>The primary goal of the FAIR Data Point specifications is to allow developers to create their own FDPs. These new FDPs can be a completely new application or an existint system that has been extended to conform with the FDP specs. Currently, we are aware of the following implementations:</p>
+			<ul>
+                <li><strong><a href="#refimplementation">FDP Reference Implementation</a></strong>: The FDP implementation from the FAIR Data Team. This implementation includes a server providing API endpoints for the manipulation of the metadata content by other applications, and a Web-based client application for human-centered usage.</li>
+				<li><strong><a href="https://molgenis.org"  target="_blank">Molgenis</a></strong>: The MOLGENIS software exposes metadata according to the FAIR Data Point specifications.</li>
+                <li><strong><a href="https://castoredc.com" target="_blank">Castor Electronic Data Capture</a>:</strong> The Castor Electronic Data Capture (EDC) allows the users to expose the metadata of the captured clinical trial data following (a previous version of) the FAIR Data Point specifications.</li>
+                <li><strong>FDP-PHP:</td> A PHP implementation for web-based data portals.</strong> </li>
+                <li><strong><a href="https://www.esciencecenter.nl/" target="_blank">Netherlands eScience Center</a></strong>: The NL eScienceCenter created a <a href="https://github.com/NLeSC/fairdatapoint">Python prototype</a> of the FDP.</li>
+				<li><strong><a href="https://www.fairdatapoint.org" target="_blank">CKAN FDP harvester</a></strong>: A CKAN harvester for the FDP.</li>
+            </ul>
+			
+            <p>Our team is composed of passionate researchers and developers from various institutions committed to open science and data-sharing. We believe that by providing a straightforward tool, we can empower the global scientific community to make their data more findable, accessible, interoperable, and reusable, fostering collaboration and innovation.</p>
+        </section>
+        <section id="refimplementation" class="container text-section">
+            <h2 class="section-title">FDP Reference Implementation</h2>
+            <p>The **FDP Reference Implementation** is a complete, ready-to-use application built to the FDP specification. It's a Spring Boot application that can be deployed easily with Docker. It includes a user interface for managing metadata and a fully functional API for automated access. This implementation serves as a starting point for anyone looking to quickly deploy a FAIR Data Point.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 FAIR Data Team. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+</footer>
+
+</body>
+</html>
