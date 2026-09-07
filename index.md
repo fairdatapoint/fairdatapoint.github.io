@@ -21,7 +21,7 @@ The second component is a _reference implementation_ of the metadata registratio
 
 The third component is a _client_ of the API: a web front end that can be used to add and edit the information in the metadata registration service, or to query it. The editor generates forms using [Data Shapes (DASH)](https://www.datashapes.org/) and contains a simple validation of data types based on the [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/). It facilitates the creation of metadata profiles as well as filling them, but this is meant to support the FAIR data point, and not meant to replace complete metadata profile development systems like [CEDAR](https://metadatacenter.org/).
 
-The priorities for the development of all three components together are set using input from an Advisory Board.
+There is an Advisory Board where the priorities for the development of all three components together can be discussed. It has not been together for a while. The number of implementations and ideas for FAIR data points is growing, and some effort is underway to bring together people working on components of the ecosystem. If your are interested in taking part in such discussions, feel free to contact us.
 
 # Examples of use
 Several projects are under way that will use FAIR Data Points to make data sets known to other researchers. Some examples:
