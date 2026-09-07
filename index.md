@@ -8,7 +8,7 @@ title: FAIR Data Point
 # What is a FAIR Data Point
 A FAIR Data Point (sometimes abbreviated to FDP) is the realisation of the vision of a group of authors of the [original paper on FAIR](https://doi.org/10.1038/sdata.2016.18) on how (meta)data could be presented on the web using existing standards, and without the need of APIs.
 
-A FAIR Data Point ultimately stores _information about data sets_, which is the definition of _metadata_. And just like the _webserver_ in the WWW in the beginning of the 1990s brought the power of publishing text to anyone, a FAIR data point aims to give anyone the power of putting their own data on the web.
+A FAIR Data Point ultimately stores _information about data sets_, said otherwise: _metadata about data sets_. And just like the _webserver_ in the WWW in the beginning of the 1990s brought the power of publishing text to anyone, a FAIR data point aims to give anyone the power of putting their own data on the web.
 
 The system is called a **FAIR** data point because it takes care of a lot of the issues that need to be taken care of to make data FAIR; especially with the metadata needed for **F**indability and **R**eusability, and a uniform open way of **A**ccessing the data. The FAIR data point also addresses the **I**nteroperability of the metadata it stores, but it leaves the Interoperability aspects for the data itself to the data provider.
 
@@ -43,6 +43,7 @@ There are several FAIR Data Point implementations in existence:
 * The [SURF Data Repository](https://repository.surfsara.nl) implements the protocol.
 * [RD-Nexus](https://rd.discovery-nexus.org) implements the protocol.
 * [LOVD](https://www.lovd.nl) implements the protocol.
+* [FDP NEO](https://github.com/FAIRDataTeam/fdpneo-server) a vibe-coded experimental alternative implementation.
 
 There are also different implementations of the metadata harvesting protocol:
 * The [reference implementation](https://github.com/FAIRDataTeam/FAIRDataPoint) as described above.
