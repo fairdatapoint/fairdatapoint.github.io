@@ -30,6 +30,7 @@ Several projects are under way that will use FAIR Data Points to make data sets 
 * Dutch academic hospitals will be implementing FAIR Data Points to collect COVID-19 data too, with the primary aim of reducing the maintenance burden of several Covid-19 data portals.
 * [Health-RI](https://health-ri.nl/en) is implementing their [health data catalogue](https://catalogus.healthdata.nl/) using FAIR Data Points.
 * The [Genomic Data Infrastructure (GDI)](https://gdi.onemilliongenomes.eu/) project is exchanging metadata with a central catalogue using FDP protocols.
+* The [SPHN Metadata Catalog](fdp.dcc.sib.swiss/) uses a FAIR Data Point to provide an overview of health research datasets available within the [Swiss Personalized Health Network (SPHN)](https://www.sphn.ch).
 
 # Networking FAIR Data Points together
 The FAIR Data Point protocol contains a component to notify a client of updates to its data. This _ping_ system allows for the creation of networks of FAIR Data points that can be queried as a single unit. You can see a first instance of this at work in the FAIR Data Point [HOME Server](https://home.fairdatapoint.org/). This functionality will still be extended.
